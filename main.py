@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import sys, getopt, subprocess, random
 import os.path
+import tree
 
 searchoption = 0
 
@@ -17,8 +18,8 @@ def main():
         mazelines = mazefile.readlines()
         generateMaze(mazelines)
 
-        # for i in range(len(mazematrix)):
-        #     print "".join(mazematrix[i])
+        for i in range(len(mazematrix)):
+            print "".join(mazematrix[i])
 
     except Exception as inst:
         print inst
@@ -40,6 +41,8 @@ def generateMaze(maze):
             if not(char == '%' or char == '\n' or char == '\r'):
                 mazematrix[j][i] = char
 
+def generateTree():
 
+    
 if __name__ == '__main__':
     main()
