@@ -78,27 +78,25 @@ class Tree:
             print root.value
 
 
-def main():
-    root = None
-    tree = Tree()
-    root = tree.insertNode(root,1,'')
-    tree.insertNode(root, 2, 'L')
-    tree.insertNode(root, 3, 'R')
-    tree.insertNode(root, 4, 'U')
-    tree.insertNode(root, 5, 'D')
-    tree.insertNode(root, 6, 'RL')
-    tree.insertNode(root, 7, 'RR')
-
-    print "Traverse Inorder"
-    tree.traverseInorder(root)
-
-    print "Traverse Preorder"
-    tree.traversePreorder(root)
-
-    print "Traverse Postorder"
-    tree.traversePostorder(root)
-
-
+# def main():
+#     root = None
+#     tree = Tree()
+#     root = tree.insertNode(root,1,'')
+#     tree.insertNode(root, 2, 'L')
+#     tree.insertNode(root, 3, 'R')
+#     tree.insertNode(root, 4, 'U')
+#     tree.insertNode(root, 5, 'D')
+#     tree.insertNode(root, 6, 'RL')
+#     tree.insertNode(root, 7, 'RR')
+#
+#     print "Traverse Inorder"
+#     tree.traverseInorder(root)
+#
+#     print "Traverse Preorder"
+#     tree.traversePreorder(root)
+#
+#     print "Traverse Postorder"
+#     tree.traversePostorder(root)
 
 if __name__ == "__main__":
     main()
