@@ -79,8 +79,6 @@ def menu(option, mazematrix):
         pacmanv1(maze,mazematrix, dots)
     elif option == 6:
         pacmanv2(maze,mazematrix, dots)
-    elif option == 7:
-        pacmanv3(maze,mazematrix, dots)
 
 def displayFinal(mazematrix, optimal, numberExp):
     currentY, currentX = pacman
@@ -334,10 +332,6 @@ def traversePacmanv2(maze, goals, length):
                 heapq.heappush(priorityQueue, (cost + pacHeuristic2(nextNode, d, length), cost + 1, currentPath + move, nextNode))
     return (p, finalPath, numberExp)
 
-def pacmanv3(maze, mazematrix, dots):
-    result = traversePacmanv3(maze)
-    displayMultiFinal(mazematrix, result[0], result[1])
-
 def prompt():
     while(True):
         s = int(raw_input("Please enter the max number of dots to visit in the heuristic: \n"))
@@ -346,11 +340,6 @@ def prompt():
         else:
             return s
 
-def pacHeuristic3(pacman, goals):
-    return 1
-
-def traversePacmanv3(maze):
-    return 1
 
 if __name__ == '__main__':
     main()

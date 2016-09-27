@@ -1,0 +1,26 @@
+Tiny Search:
+k: 2 - Path Length:   44           Number Of Expansions: 63
+k: 3 - Path Length:   36           Number Of Expansions: 51 OPTIMAL
+k: 4 - Path Length:   44           Number Of Expansions: 51
+k: 5 - Path Length:   42           Number Of Expansions: 53
+k: 6 - Path Length:   42           Number Of Expansions: 44
+k: 7 - Path Length:   44           Number Of Expansions: 52
+k: 8 - Path Length:   44           Number Of Expansions: 52
+
+Small Search:
+k: 2 - Path Length:   253           Number Of Expansions: 520
+k: 3 - Path Length:   225           Number Of Expansions: 489
+k: 4 - Path Length:   253           Number Of Expansions: 504
+k: 5 - Path Length:   225           Number Of Expansions: 465 OPTIMAL
+k: 6 - Path Length:   251           Number Of Expansions: 477
+k: 7 - Path Length:   255           Number Of Expansions: 532
+k: 8 - Path Length:   225           Number Of Expansions: 499
+
+Medium Search:
+k: 2 - Path Length:   378           Number Of Expansions: 784
+k: 3 - Path Length:   442           Number Of Expansions: 1045
+k: 4 - Path Length:   392           Number Of Expansions: 816
+k: 5 - Path Length:   392           Number Of Expansions: 838
+k: 6 - Path Length:   368           Number Of Expansions: 767 OPTIMAL
+k: 7 - Path Length:   386           Number Of Expansions: 863
+k: 8 - Path Length:   375           Number Of Expansions: 825
