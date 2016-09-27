@@ -1,5 +1,15 @@
 import sys
 
+'''
+
+    Using the matrix generated earlier, we are populating a dictionary to contain the actions
+    available to the current node.
+    The key being used for the dictionary is the tuple of the coordinates of the current node.
+    By iterating through the matrix, we determine if the adjacent cells are empty and if they are,
+    the dictionary will be populated with the available actions (L = left, R = right, etc.).
+
+'''
+
 def generateGraph(matrix, width, height):
     maze = {(i,j): [] for j in range(width-1) for i in range(height) if not (matrix[i][j] == '%')}
     for i, j in maze.keys():
